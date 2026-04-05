@@ -58,7 +58,3 @@ npx tsx demo.ts
 2. **Timezone Awareness:** All session boundaries and daily resets are evaluated using the specified IANA timezone (via Luxon).
 3. **Resilient Retries:** Failed calls are queued at the exact millisecond their delay expires, prioritizing them alongside the existing channel queue.
 4. **Pause/Resume:** The engine stops initiating new calls immediately upon a pause command, while allowing active calls to complete naturally as per the spec.
-
-## License
-
-MIT
