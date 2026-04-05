@@ -1,0 +1,23 @@
+{
+  "name": "call-campaign-simulator",
+  "version": "1.0.0",
+  "description": "A production-grade call campaign simulator with timezone-aware scheduling",
+  "main": "dist/solution.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["campaign", "simulator", "call-center"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.6.2",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
